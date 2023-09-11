@@ -41,28 +41,30 @@ If you have any doubts or questions. Please create a issue [here](https://github
 
 ## FAQ
 
-**Does this program store any credentials?**
+**-> Does this program store any credentials?**
 
 No appliFLY does not store any credential or any user information for that matter. It is a simple script that you run independently on your local machine.
 
-**Does the program upload any supplemental material files while applying to a position?**
+**-> Does the program upload any supplemental material files while applying to a position?**
 
 As of 9th September 2023, the script does not upload any supplemental material while applying to a position. However, this feature can be expected soon.
 
-**Can the script apply to positions using different resumes and cover letters?**
+**-> Can the script apply to positions using different resumes and cover letters?**
 
 Currently (as of 9th September 2023) if you run a script specifying the resume and cover letter, it will upload the same resume and cover letter to all the job positions. There is no flexibility to customize resume's and cover letter's for each job posting. However that feature can be expected soon enough.
 
 If you want to apply using a new resume or cover letter, you will need to restart the script after updating the `path` in the `.env` file.
 
-**Does the script re-apply to already applied positions?**
+**-> Does the script re-apply to already applied positions?**
 
 No, if you have already applied to some position, the program will simply skip that job opening and move on to the next listing.
 
 ## Trouble Shooting
 
 - Make sure you have a good internet connection before running the script.
+
 - Make sure you have applied to at least one job position on the job portal, before running the script. Otherwise, the script **will** fail. The script assumes you have applied to at least one job before. Hence this program does not fill all the fields. Instead only the ones that are not prefilled while applying.
+
 - Sometimes certain components (Eg: submit button) within the ASU job portal, fail to load properly. As a result the script is unable to detect the component. This may result in failure. In such cases, simply restart the script, and you should be fine. Script will not re-apply to already applied jobs positions.
 
 ## Made By
@@ -70,6 +72,9 @@ Made with ❤️ By @Kshitij Dhyani
 
 **Here are my Socials**:
 Linkedin: https://www.linkedin.com/in/kshitijdhyani/
+
 Twitter: https://twitter.com/kshitij_dhyani
+
 Portfolio Website: https://kshitijdhyani.com/
+
 Github: https://github.com/wimpywarlord/
