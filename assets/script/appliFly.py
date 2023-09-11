@@ -23,12 +23,12 @@ try:
   print('\n')
 
   print('____________PRE-REQUISITES____________')
-  print('1. Make sure you installed all the dependencies: `pip install -r requirements.txt`')
-  print('2. Make sure have created a `.env` file in the same directory as this script.')
+  print('1. Make sure have created a `.env` file in the same directory as this script.')
   print('2. Make sure have copied contents of the `env.txt` file into that `.env`.')
-  print('2. Make sure have filled the `.env` file with your credentials and paths.')
-  print('3. Make sure you have a good internet connection.')
-  print('4. Make sure you have applied to atleast 1 job on the portal manually.')
+  print('3. Make sure have filled the `.env` file with your credentials and paths.')
+  print('4. Make sure you installed all the dependencies: `pip install -r requirements.txt`')
+  print('5. Make sure you have a good internet connection.')
+  print('6. Make sure you have applied to atleast 1 job on the portal manually.')
 
   print('\n')
 
