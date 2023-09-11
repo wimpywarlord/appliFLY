@@ -9,7 +9,7 @@ This python script will fill **ALL** the jobs listed on the [ASU on campus job p
 
 # How to run the script.
 
-1. Visit the [appliFLY](Insert appliFLY website Link) website.
+1. Visit the [appliFLY](https://kshitijdhyani.com/appliFLY/) website.
 2. Download the script file (Connect with me as well, while you are at it 😉).
 3. `Unzip` the file. This will create a `appliFly` folder containing 3 files inside. Namely `requirements.txt`, `appliFly.py`, and `env.txt`.
 4. Create a `.env` file within the `appliFly` folder, and copy all the content from the `env.txt` file into the `.env` file.
