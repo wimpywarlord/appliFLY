@@ -78,7 +78,7 @@ try:
 
   login_button.click()
 
-  # Wait 100 seconds for DUO authentication.
+  # Wait for DUO authentication.
   time.sleep(2)
 
   duo_security_iframe = chromeDriver.find_element(By.XPATH, "/html/body/div/div/main/div/form/div/iframe")
@@ -89,11 +89,13 @@ try:
 
   send_duo_push_button = chromeDriver.find_element(By.XPATH, "/html/body/div/div/div[1]/div/form/div[1]/fieldset/div[1]/button")
 
+  # Click the send push button
   send_duo_push_button.click()
 
-  # Wait for 60 seconds for the person to authenticate from their DUO App
-  # ! Do this step as fast as possible.
-  time.sleep(60)
+  # ! Please authenticate using your phone as soon as possible.
+
+  # Wait for the search button to load on the job portal
+  time.sleep(10)
 
   chromeDriver.switch_to.default_content()
 
@@ -105,7 +107,7 @@ try:
 
   # Wait for the search results to load
   # ! IMPORTANT - Possible point of failure, if wait time is not enough for slow internet connection.
-  time.sleep(20)
+  time.sleep(10)
 
   # Click Next button as many times as it is available
   while True:
