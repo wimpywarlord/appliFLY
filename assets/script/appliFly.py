@@ -118,6 +118,8 @@ try:
           print("All jobs staged for application.")
           break
       
+  wait_for_job_title_links = WebDriverWait(chromeDriver, 10)
+  wait_for_job_title_links.until(EC.presence_of_element_located((By.CLASS_NAME, "jobtitle")))
   job_title_links = chromeDriver.find_elements(By.CLASS_NAME, 'jobtitle')
 
   print("____________JOB LINKS FOUND____________");
