@@ -14,7 +14,7 @@ This python script will fill **ALL** the jobs listed on the [ASU on campus job p
 3. `Unzip` the file. This will create a `appliFly` folder containing 3 files inside. Namely `requirements.txt`, `appliFly.py`, and `env.txt`.
 4. Create a `.env` file within the `appliFly` folder, and copy all the content from the `env.txt` file into the `.env` file.
 5. Fill the details asked in the `.env` file.
-6. Run: `pip install -r requirements.txt` to install all dependency. This command must be execute while you are present in the `appliFly` directory. If you face any difficulties in this step, please open a issue [here](https://github.com/wimpywarlord/appliFLY), I will be sure to assist you.
+6. Run: `pip install -r requirements.txt` to install all dependency. This command must be execute while you are present in the `appliFly` directory. If you face any difficulties in this step, please open a issue [here](https://github.com/wimpywarlord/appliFLY/issues), I will be sure to assist you.
 7. Run: `python appliFly.py` to start the script. 
 
 **Checklist before running the script:**
@@ -29,7 +29,7 @@ This python script will fill **ALL** the jobs listed on the [ASU on campus job p
 
  After the script starts, it will ask the you to **one time** authorise the DUO double authentication. Authorize that and let the script run until it fills up all the available job listing.
   
-If you have any doubts or questions. Please create a issue [here](https://github.com/wimpywarlord/appliFLY), and I will make sure to answer it.
+If you have any doubts or questions. Please create a issue [here](https://github.com/wimpywarlord/appliFLY/issues), and I will make sure to answer it.
 
 ## NOTICE
 
