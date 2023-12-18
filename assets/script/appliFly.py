@@ -72,7 +72,7 @@ try:
   employmentHomePageUrl = 'https://students.asu.edu/employment/search'
   chromeDriver.get(employmentHomePageUrl)
 
-  on_campus_job_button = chromeDriver.find_element(By.XPATH ,"/html/body/div[3]/div[2]/main[3]/div/div/div/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/a/button")
+  on_campus_job_button = chromeDriver.find_element(By.XPATH ,"/html/body/div/div/main/div[2]/article/div[2]/div/div/div/div/div/div[4]/div/a[1]")
 
   on_campus_job_button.click()
 
