@@ -1,4 +1,5 @@
 # Welcome to AppliFLY
+
 **Do something better with your time.**
 
 Link to the website: https://kshitijdhyani.com/appliFLY/
@@ -15,7 +16,21 @@ This python script will fill **ALL** the jobs listed on the [ASU on campus job p
 4. Create a `.env` file within the `appliFly` folder, and copy all the content from the `env.txt` file into the `.env` file.
 5. Fill the details asked in the `.env` file.
 6. Run: `pip install -r requirements.txt` to install all dependency. This command must be execute while you are present in the `appliFly` directory. If you face any difficulties in this step, please open a issue [here](https://github.com/wimpywarlord/appliFLY/issues), I will be sure to assist you.
-7. Run: `python appliFly.py` to start the script. 
+7. Run: `python appliFly.py` to start the script.
+
+# Known Issue and Fix.
+
+If you face any of the following issues:
+
+- The script stopped executing and threw a "stale element reference" exception.
+- There are 0 jobs available for you to apply.
+- Script runs initially, then gets stuck on the job loading screen.
+
+- ![known_issue_1](known_issue_1.png)
+
+- ![known_issue_2](known_issue_2.png)
+
+The FIX is [here](https://github.com/wimpywarlord/appliFLY/issues/9).
 
 **Checklist before running the script:**
 
@@ -26,18 +41,17 @@ This python script will fill **ALL** the jobs listed on the [ASU on campus job p
 - [ ] Make sure you have a good internet connection.
 - [ ] Make sure you have applied to atleast 1 job on the portal manually.
 
+After the script starts, it will ask the you to **one time** authorise the DUO double authentication. Authorize that and let the script run until it fills up all the available job listing.
 
- After the script starts, it will ask the you to **one time** authorise the DUO double authentication. Authorize that and let the script run until it fills up all the available job listing.
-  
 If you have any doubts or questions. Please create a issue [here](https://github.com/wimpywarlord/appliFLY/issues), and I will make sure to answer it.
 
 ## NOTICE
 
-* Apply to at-least 1 job opening manually before running the script
-* You will need to 1 time authenticate using DUO. Make sure you have your phone with you.
-* If the script crashes for any reason. Simply Restart It. It will work the next time, give it a few tries.
-* In case of errror/crash, document the error and report to the developer @https://github.com/wimpywarlord/appliFLY/issues.
-* If you have already applied for a job, the script will skip it.
+- Apply to at-least 1 job opening manually before running the script
+- You will need to 1 time authenticate using DUO. Make sure you have your phone with you.
+- If the script crashes for any reason. Simply Restart It. It will work the next time, give it a few tries.
+- In case of errror/crash, document the error and report to the developer @https://github.com/wimpywarlord/appliFLY/issues.
+- If you have already applied for a job, the script will skip it.
 
 ## FAQ
 
@@ -68,6 +82,7 @@ No, if you have already applied to some position, the program will simply skip t
 - Sometimes certain components (Eg: submit button) within the ASU job portal, fail to load properly. As a result the script is unable to detect the component. This may result in failure. In such cases, simply restart the script, and you should be fine. Script will not re-apply to already applied jobs positions.
 
 ## Made By
+
 Made with ❤️ By @Kshitij Dhyani
 
 **Here are my Socials**:
